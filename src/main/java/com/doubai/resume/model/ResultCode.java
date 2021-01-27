@@ -9,6 +9,6 @@ public enum ResultCode {
     SUCCESS(0, "success"),
     Exception(1, "exception");
 
-    private final String message;
     public int code;
+    private final String message;
 }

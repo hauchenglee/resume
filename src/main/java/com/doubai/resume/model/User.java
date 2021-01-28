@@ -1,6 +1,8 @@
 package com.doubai.resume.model;
 
 import lombok.Data;
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,6 +14,8 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(name = "user")
 @Data
+@DynamicUpdate
+@DynamicInsert
 public class User {
 
     @Id

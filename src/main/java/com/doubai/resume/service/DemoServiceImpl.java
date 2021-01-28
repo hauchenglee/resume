@@ -1,5 +1,6 @@
 package com.doubai.resume.service;
 
+import com.doubai.resume.dao.mysql.DemoDao;
 import com.doubai.resume.model.Demo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
@@ -12,7 +13,7 @@ import java.util.Optional;
 public class DemoServiceImpl implements DemoService {
 
     @Autowired
-    private com.doubai.resume.dao.DemoDao DemoMySqlDao;
+    private DemoDao DemoMySqlDao;
 
     @Override
     public Optional<Demo> findById(String id) {

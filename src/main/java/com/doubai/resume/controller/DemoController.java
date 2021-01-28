@@ -24,18 +24,18 @@ public class DemoController {
     @Autowired
     private DemoService demoService;
 
-    @GetMapping(value = "/api/demo", produces = Constants.CONTENT_TYPE_JSON)
+    @GetMapping(value = "/demo", produces = Constants.CONTENT_TYPE_JSON)
     public String demo(HttpServletRequest request, @RequestBody String receiveJSON) {
         int result = 2;
         return "{\"aaa\": \"" + result + "\"}";
     }
 
-    @GetMapping(value = "/api/demo/error", produces = Constants.CONTENT_TYPE_JSON)
+    @GetMapping(value = "/demo/error", produces = Constants.CONTENT_TYPE_JSON)
     public ResultBean<String> error(HttpServletRequest request, @RequestBody String receiveJSON) {
         return ResultBean.error(ResultCode.Exception.getCode(), ResultCode.Exception.getMessage());
     }
 
-    @GetMapping(value = "/api/demo/findById", produces = Constants.CONTENT_TYPE_JSON)
+    @GetMapping(value = "/demo/findById", produces = Constants.CONTENT_TYPE_JSON)
     public ResultBean<Demo> findById(HttpServletRequest request, @RequestBody String receiveJSON) throws JsonProcessingException {
         System.out.println(receiveJSON);
         ObjectMapper mapper = new ObjectMapper();
@@ -46,7 +46,7 @@ public class DemoController {
     }
 
     @SneakyThrows
-    @PostMapping(value = "/api/demo/addDemo", produces = Constants.CONTENT_TYPE_JSON)
+    @PostMapping(value = "/demo/addDemo", produces = Constants.CONTENT_TYPE_JSON)
     public ResultBean<Boolean> addDemo(HttpServletRequest request, @RequestBody String receiveJSON) {
         System.out.println(receiveJSON);
         ObjectMapper mapper = new ObjectMapper();

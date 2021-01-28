@@ -1,4 +1,4 @@
-package com.doubai.resume.dao;
+package com.doubai.resume.dao.mysql;
 
 import com.doubai.resume.model.Demo;
 import org.springframework.data.jpa.repository.JpaRepository;

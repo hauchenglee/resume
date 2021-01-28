@@ -1,6 +1,6 @@
 package com.doubai.resume.dao.mongodb;
 
-import com.doubai.resume.model.Mongo;
+import com.doubai.resume.model.mongodb.Mongo;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

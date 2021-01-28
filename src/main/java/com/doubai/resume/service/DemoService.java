@@ -1,7 +1,7 @@
 package com.doubai.resume.service;
 
 
-import com.doubai.resume.model.Demo;
+import com.doubai.resume.model.mysql.Demo;
 
 import java.util.Optional;
 

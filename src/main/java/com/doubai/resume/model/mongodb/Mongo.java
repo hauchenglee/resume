@@ -1,4 +1,4 @@
-package com.doubai.resume.model;
+package com.doubai.resume.model.mongodb;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;

@@ -1,6 +1,6 @@
 package com.doubai.resume.service;
 
-import com.doubai.resume.model.User;
+import com.doubai.resume.model.mysql.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,6 @@
 package com.doubai.resume.controller;
 
-import com.doubai.resume.model.Demo;
+import com.doubai.resume.model.mysql.Demo;
 import com.doubai.resume.model.ResultBean;
 import com.doubai.resume.model.ResultCode;
 import com.doubai.resume.service.DemoService;

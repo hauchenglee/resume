@@ -1,7 +1,7 @@
 package com.doubai.resume.service;
 
 import com.doubai.resume.dao.mongodb.MongoDao;
-import com.doubai.resume.model.Mongo;
+import com.doubai.resume.model.mongodb.Mongo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

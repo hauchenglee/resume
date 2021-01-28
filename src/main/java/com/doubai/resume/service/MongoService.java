@@ -1,6 +1,6 @@
 package com.doubai.resume.service;
 
-import com.doubai.resume.model.Mongo;
+import com.doubai.resume.model.mongodb.Mongo;
 
 import java.util.List;
 import java.util.Optional;

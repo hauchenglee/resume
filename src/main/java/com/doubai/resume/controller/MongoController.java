@@ -1,11 +1,9 @@
 package com.doubai.resume.controller;
 
-import com.doubai.resume.model.Demo;
-import com.doubai.resume.model.Mongo;
+import com.doubai.resume.model.mongodb.Mongo;
 import com.doubai.resume.model.ResultBean;
 import com.doubai.resume.service.MongoService;
 import com.doubai.resume.util.Constants;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;

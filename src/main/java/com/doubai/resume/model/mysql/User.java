@@ -1,4 +1,4 @@
-package com.doubai.resume.model;
+package com.doubai.resume.model.mysql;
 
 import lombok.Data;
 import org.hibernate.annotations.DynamicInsert;

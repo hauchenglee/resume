@@ -1,7 +1,7 @@
 package com.doubai.resume.service;
 
 import com.doubai.resume.dao.mysql.UserDao;
-import com.doubai.resume.model.User;
+import com.doubai.resume.model.mysql.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

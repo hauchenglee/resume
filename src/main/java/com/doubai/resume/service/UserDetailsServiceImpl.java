@@ -1,6 +1,6 @@
 package com.doubai.resume.service;
 
-import com.doubai.resume.model.User;
+import com.doubai.resume.model.mysql.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
